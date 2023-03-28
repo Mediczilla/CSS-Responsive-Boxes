@@ -1,3 +1,52 @@
 body {
   background: blanchedalmond;
 }
+.a{
+  padding: 75px;
+  border-style: solid;
+  border-color: aquamarine;
+  border-radius: 6px;
+  margin: 6px;
+  flex-flow: row wrap;
+  display: flex;
+  text-align: center;
+  background-color: aquamarine;
+}
+.b{
+  padding: 400px;
+  border-style: solid;
+  border-color: rgb(35, 158, 117);
+  border-radius: 6px;
+  margin: 6px;
+  flex-flow: row wrap;
+  display: flex;
+  text-align: center;
+  background-color: rgb(35, 158, 117);
+}
+.c{
+  padding: 60px;
+  border-style: solid;
+  border-color: aquamarine;
+  border-radius: 6px;
+  margin: 6px;
+  flex-flow: row wrap;
+  display: flex;
+  text-align: center;
+  background-color: aquamarine;
+
+}
+.container{
+  width: 100%;
+  height: auto;
+  display: grid;
+  border-spacing: 10px;
+}
+div{
+  border-spacing: 4px;
+}
+
+@media (min-width: 600px){
+  .b, .c{
+    display: flex;
+  }
+}
